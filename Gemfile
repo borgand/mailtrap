@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '2.2.0'
 
 gemspec
 
@@ -14,5 +14,4 @@ group :test do
     gem 'mocha'
     gem 'fakefs'
     gem 'tmail', '~> 1.2.3'
-    gem 'debugger'
 end
